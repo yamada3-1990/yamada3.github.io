@@ -6,7 +6,7 @@
   "homepage": "https://github.com/yamada3-1990/yamada3.github.io.git",
   "scripts": {
     "dev": "vite",
-    "build": "vite build && robocopy ./dist ./docs /E",
+    "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
     "git": "git add . && git commit && git push origin main",
