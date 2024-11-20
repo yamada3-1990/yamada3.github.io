@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://github.com/yamada3-1990/yamada3.github.io.git",
+  "homepage": "https://yamada3-1990.github.io/yamada3.github.io/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
