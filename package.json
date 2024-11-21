@@ -6,12 +6,12 @@
   "homepage": "https://yamada3-1990.github.io/yamada3.github.io/",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
     "git": "git add . && git commit && git push origin main",
     "predeploy": "yarn build",
-    "deploy": "gh-pages -d dist"
+    "build": "vite build && robocopy ./dist ./ /E",
+    "deploy": "yarn build && git add . && git commit -m 'Deploy to main' && git push origin main"
   },
   "dependencies": {
     "@splinetool/react-spline": "^4.0.0",
