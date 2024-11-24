@@ -9,7 +9,7 @@ function App() {
 
   return (
     <div className="spline-container">
-    <Spline scene="https://prod.spline.design/ooP6ntpyB1b2OOyn/scene.splinecode" />
+    <Spline scene="https://prod.spline.design/DWxGheeT0DbekvSc/scene.splinecode" />
   </div>
   )
 }
