@@ -4,14 +4,9 @@
 import './App.css'
 import Spline from '@splinetool/react-spline';
 
-function App() {
-  // const [count, setCount] = useState(0)
-
+export default function App() {
   return (
-    <div className="spline-container">
     <Spline scene="https://prod.spline.design/DWxGheeT0DbekvSc/scene.splinecode" />
-  </div>
-  )
+  );
 }
 
-export default App
