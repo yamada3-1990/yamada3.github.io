@@ -3,9 +3,9 @@ import react from '@vitejs/plugin-react'
 import envCompatible from 'vite-plugin-env-compatible'
 
 export default defineConfig({
-  base: "./", // ルートディレクトリにデプロイする場合
+  base: "/yamada3.github.io/", // あなたのリポジトリ名に置き換えてください
   plugins: [
     react(),
-    envCompatible(), // 追加
+    envCompatible(),
   ],
 })
