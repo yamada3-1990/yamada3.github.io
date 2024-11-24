@@ -3,15 +3,14 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://yamada3-1990.github.io/yamada3.github.io/",
+  "homepage": "https://yamada3-1990.github.io/yamada3.github.io",
   "scripts": {
     "dev": "vite",
     "lint": "eslint .",
     "preview": "vite preview",
-    "git": "git add . && git commit && git push origin main",
     "predeploy": "yarn build",
-    "build": "vite build && robocopy ./dist ./ /E",
-    "deploy": "yarn build && git add . && git commit -m 'Deploy to main' && git push origin main"
+    "build": "vite build",
+    "deploy": "git add dist && git commit -m 'Deploy to GitHub Pages' && git push origin main"
   },
   "dependencies": {
     "@splinetool/react-spline": "^4.0.0",
@@ -29,7 +28,6 @@
     "eslint-plugin-react": "^7.37.2",
     "eslint-plugin-react-hooks": "^5.0.0",
     "eslint-plugin-react-refresh": "^0.4.14",
-    "gh-pages": "^6.2.0",
     "globals": "^15.11.0",
     "vite": "^5.4.10"
   }
